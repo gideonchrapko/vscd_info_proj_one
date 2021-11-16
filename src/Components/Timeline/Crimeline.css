@@ -1,0 +1,124 @@
+.data_container {
+    border: white solid 2px;
+    position: fixed;
+    top: 10vh;
+    height: 85vh;
+    right: 0vw;
+    border-radius: 30px;
+    overflow: scroll;
+  }
+
+  .time_BG_colour {
+    top: 10vh;
+    height: 85vh;
+    width: 100vw;
+    object-fit: cover;
+    position: relative;
+    border-radius: 30px;
+    border: white solid 2px;
+    background-repeat: no-repeat;
+    background-position: center; 
+    background-color: #00C4FF;
+    background-blend-mode: multiply;
+  }
+
+.time_date {
+    font-family: FP Head Pro, sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    color: white;
+    font-size: clamp(12pt, 5vw, 20pt);
+    text-decoration: none;
+}
+
+.time_year_header {
+    font-family: FP Head Pro, sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    color: white;
+    font-size: clamp(70pt, 7vw, 110pt);
+    text-decoration: none;
+    margin-top: 10vh;
+}
+
+.img_header_time {
+    top: 5vh;
+    height: auto;
+    position: absolute;
+    width: 20%;
+    left: 40%;
+    justify-content: center
+  }
+
+.time_year {
+    font-family: FP Head Pro, sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    color: white;
+    font-size: clamp(70pt, 6vw, 100pt);
+    text-decoration: none;
+    margin-top: 10vh;
+    top: 0;
+    padding: 0px 0px 0px 30px;
+    position: sticky;
+    position: -webkit-sticky;
+}
+
+.time_header {
+    font-family: Agenda, sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    color: white;
+    font-size: clamp(10pt, 2vw, 15pt);
+    text-decoration: none;}
+
+.time_title {
+    font-family: Agenda, sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    color: white;
+    font-size: clamp(15pt, 2vw, 20pt);
+    text-decoration: none;
+}
+
+.time_description {
+    font-family: agenda, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+    font-size: clamp(8pt, 3vw, 12pt);
+    line-height: 1;
+}
+
+.time_img {
+    border-radius: 60px;
+    margin-left: -2vw;
+    height: 15vh;
+    width: 15vh;
+    background-repeat: no-repeat;
+    background-size: 40vh;
+    background-position: center; 
+}
+
+/* timeline navbar */
+
+.time_nav_container {
+    background-color: white;
+    position: fixed;
+    height: 81vh;
+    border-radius: 20px;
+    top: 12vh;
+    right: 1.3vw;
+
+    display: inline;
+}
+
+
+
+.time_dot {
+    height: 15px;
+    width: 15px;
+    background-color: black;
+    border-radius: 50%;
+    display: inline-block;
+}

@@ -1,0 +1,32 @@
+.nav-container {
+    padding-top: 3%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav_text {
+    font-family: FP Head Pro, sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    color: white;
+    text-decoration: none;
+}
+
+.logo_nav {
+    padding: 10px 0px 0px 40px; 
+    transform: scale(0.6);
+}
+
+.nav_lang {
+    font-family: FP Head Pro, sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    color: white;
+    text-decoration: none;
+}
+
+.nav_master_container {
+    position: fixed;
+    top: 0;
+}
